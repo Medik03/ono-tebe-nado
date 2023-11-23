@@ -6,7 +6,9 @@
   padding: 89px;
   margin: auto 0;
 }
+.header__menu {
 
+}
 /* список ссылок*/
 .header__links-list {
   display: flex;
@@ -38,8 +40,8 @@ header__link {
 .header__logo {
   display: block;
   margin-right: 150px;
-  width: 140px;
-  height: 110px;
+  width: 137px;
+  height: 109px;
 }
 
 /* Логотип-img*/
@@ -70,18 +72,22 @@ header__link {
 
 /*секция cover*/
 .cover {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 background-image: url(../images/cover.jpg);
 background-size: cover;
+background-position: center;
 background-repeat: no-repeat;
 position: relative;
 top: 5px;
-padding: 90px 80px 80px 80px;
+/*padding: 90px 80px 80px 80px;*/
 
 }
 
 .cover-max {
-  max-width: 1440px;
-  height: 757px;
+width: 1440px;
+ height: 757px;
   margin: 0 auto;
 }
 .overlay {
@@ -97,40 +103,71 @@ z-index: 1;
 
 }
 
-.letter-spacing-extended {
-  
-}
-
-.no-letter-spacing {
-
-}
-
-/*Заголовок*/
-.cover__title {
-
-}
 
 /*Подзаголовок*/
 
 .cover__description {
-
+display: flex;
+justify-content: flex-end;
+gap: 78px;
+align-items: center;
+padding-bottom: 51px;
+padding-right: 50px;
 }
 
 .cover__description-text {
+  font-family: Raleway;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 20px;
 
 }
 .aligned-text {
+display: block;
+}
 
+/*Заголовок*/
+.cover__title {
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 20px;
+font-family: Raleway;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: 115%; /* 115px */
+letter-spacing: 30px;
+text-transform: uppercase;
+color: #FFF;
 }
 
 .aligned-text_center {
-
+text-align: center;
 }
 
  .aligned-text_right  {
-
+text-align: right;
+ }
+ .letter-spacing-extended {
+letter-spacing: 60px;
  }
 
 .bet-button {
+background: transparent;
+border: 1px solid #FFF;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #FFF;
+font-family: Raleway;
+padding: 12px 32px;
+text-transform: uppercase;
 
 } 
