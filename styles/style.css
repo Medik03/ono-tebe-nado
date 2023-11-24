@@ -128,15 +128,11 @@ padding-right: 50px;
 
 }
 
-.aligned-text {
-display: block;
-}
+
 
 /*Заголовок*/
 .cover__title {
     position: relative;
-    display: flex;
-    flex-direction: column;
     font-family: Raleway;
     font-size: 100px;
     font-style: normal;
@@ -145,34 +141,29 @@ display: block;
     letter-spacing: 30px;
     text-transform: uppercase;
     color: #FFF;
+    width: 1340px;
 }
+.aligned-text {
+  display: block;
+  }
 
 .aligned-text-left {
-padding-left: 50px;
-margin-top: 36px;
+  text-align: left;
 }
 .aligned-text_center {
-  text-align: center;
-  margin-px;
-  }
+text-align: center;  }
   
  .aligned-text-right  {
-  display: flex;
-  justify-content: flex-end;
-  gap: 31px;
-  margin-top: 23px;
-  }
+  text-align: right;
 
-  .letter-spacing-extended {
+}
+.no-letter-spacing {
+  letter-spacing: 0px;
+  }
+  
+.letter-spacing-extended {
   letter-spacing: 60px;
    }
-
-.letter-spacing-extended-right {
-  display: flex;
-  justify-content: flex-end;
-margin-right: 19px ;
-}
-
 
 .bet-button {
 background: transparent;
