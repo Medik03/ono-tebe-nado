@@ -81,7 +81,7 @@ background-position: center;
 background-repeat: no-repeat;
 position: relative;
 top: 4px;
-
+z-index: 1;
 }
 
 .cover-max {
@@ -90,7 +90,7 @@ width: 1440px;
   margin: 0 auto;
 }
 .overlay {
-/*position: absolute;
+position: absolute;
 width: 100%;
 height: 100%;
 opacity: 0.6;
@@ -98,7 +98,7 @@ background: #000;
 top: 0px;
 left: 0px;
 z-index: 1;
-*/
+
 
 }
 
@@ -106,13 +106,13 @@ z-index: 1;
 /*Подзаголовок*/
 
 .cover__description {
-display: flex;
-justify-content: flex-end;
-gap: 78px;
-align-items: center;
-padding-bottom: 51px;
-padding-right: 50px;
-
+  display: flex;
+  justify-content: flex-end;
+  gap: 78px;
+  align-items: center;
+  padding-bottom: 51px;
+  padding-right: 50px;
+  z-index: 2;
 }
 
 .cover__description-text {
@@ -125,42 +125,43 @@ padding-right: 50px;
   line-height: 28px;
   text-transform: uppercase;
   word-spacing: 20px;
-
 }
 
 
 
 /*Заголовок*/
 .cover__title {
-    position: relative;
-    font-family: Raleway;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 115%; /* 115px */
-    letter-spacing: 30px;
-    text-transform: uppercase;
-    color: #FFF;
-    width: 1340px;
+  color: #fff;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  z-index: 2;
 }
 .aligned-text {
   display: block;
   }
 
 .aligned-text-left {
-  text-align: left;
+  padding-top: 29px;
+  padding-left: 49px;
 }
 .aligned-text_center {
-text-align: center;  }
+padding-top: 2px;
+text-align: center; 
+ }
   
  .aligned-text-right  {
   text-align: right;
-
+  padding-right: 20px;
+  line-height: 110%;
 }
 .no-letter-spacing {
   letter-spacing: 0px;
   }
-  
+
 .letter-spacing-extended {
   letter-spacing: 60px;
    }
