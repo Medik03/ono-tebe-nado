@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 89px;
+  padding: 90px;
   margin: auto 0;
 }
 .header__menu {
@@ -22,7 +22,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
-  text-underline-offset: 5px;
+  text-underline-offset: 4px;
 
 }
 /*ссылка без кружочка*/
@@ -40,7 +40,7 @@ header__link {
 .header__logo {
   display: block;
   margin-right: 150px;
-  width: 137px;
+  width: 139px;
   height: 109px;
 }
 
@@ -80,8 +80,7 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 position: relative;
-top: 5px;
-/*padding: 90px 80px 80px 80px;*/
+top: 4px;
 
 }
 
@@ -113,6 +112,7 @@ gap: 78px;
 align-items: center;
 padding-bottom: 51px;
 padding-right: 50px;
+
 }
 
 .cover__description-text {
@@ -127,36 +127,52 @@ padding-right: 50px;
   word-spacing: 20px;
 
 }
+
 .aligned-text {
 display: block;
 }
 
 /*Заголовок*/
 .cover__title {
-position: relative;
-display: flex;
-flex-direction: column;
-gap: 20px;
-font-family: Raleway;
-font-size: 100px;
-font-style: normal;
-font-weight: 700;
-line-height: 115%; /* 115px */
-letter-spacing: 30px;
-text-transform: uppercase;
-color: #FFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    color: #FFF;
 }
 
+.aligned-text-left {
+padding-left: 50px;
+margin-top: 36px;
+}
 .aligned-text_center {
-text-align: center;
+  text-align: center;
+  margin-px;
+  }
+  
+ .aligned-text-right  {
+  display: flex;
+  justify-content: flex-end;
+  gap: 31px;
+  margin-top: 23px;
+  }
+
+  .letter-spacing-extended {
+  letter-spacing: 60px;
+   }
+
+.letter-spacing-extended-right {
+  display: flex;
+  justify-content: flex-end;
+margin-right: 19px ;
 }
 
- .aligned-text_right  {
-text-align: right;
- }
- .letter-spacing-extended {
-letter-spacing: 60px;
- }
 
 .bet-button {
 background: transparent;
