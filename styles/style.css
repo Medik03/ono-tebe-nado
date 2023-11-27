@@ -9,7 +9,6 @@
 /* список ссылок*/
 .header__links-list {
   display: flex;
-  /* justify-items: start;*/
   gap: 33px;
 }
 /*пункт списка ссылок*/
@@ -330,18 +329,65 @@ header__link {
 }
 
 /*Footer*/
-footer-address
-footer__address-link-number
-footer__address-link
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0;
+  padding-top: 185px;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  padding-left: 88px;
+}
+
+.footer__address-link-number {
+}
+
+.footer__address-link {
+  text-underline-offset: 4px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+
 /*Навигация*/
-footer__menu
-footer__menu-list
-footer__menu-list-item
-footer__menu-link
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3px;
+}
+.footer__menu-list-item {
+  text-underline-offset: 3px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style: none;
+}
+
+
 /*активная ссылка меню,без подчеркивания*/
-footer__menu-link_active
+.footer__menu-link_active {
+  text-decoration: none;
+}
 /*Социальные сети*/
-footer__social-list
-footer__social-list-item
-footer__social-link
-footer__social-logo
+.footer__social-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 48px;
+  padding-right: 90px;
+}
+.footer__social-list-item {
+  list-style: none;
+}
+
+.footer__social-logo {
+  width: 48px;
+  height: 48px;
+}
