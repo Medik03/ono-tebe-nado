@@ -5,9 +5,7 @@
   padding: 89px;
   margin: auto 0;
 }
-.header__menu {
-  
-}
+
 /* список ссылок*/
 .header__links-list {
   display: flex;
@@ -330,3 +328,20 @@ header__link {
   padding: 1px 12px;
   line-height: 1.1;
 }
+
+/*Footer*/
+footer-address
+footer__address-link-number
+footer__address-link
+/*Навигация*/
+footer__menu
+footer__menu-list
+footer__menu-list-item
+footer__menu-link
+/*активная ссылка меню,без подчеркивания*/
+footer__menu-link_active
+/*Социальные сети*/
+footer__social-list
+footer__social-list-item
+footer__social-link
+footer__social-logo
