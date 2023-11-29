@@ -20,6 +20,7 @@
   line-height: normal;
   text-underline-offset: 4px;
 }
+
 /*ссылка без кружочка*/
 .header__links-list-item_no-bullit {
   list-style: none;
