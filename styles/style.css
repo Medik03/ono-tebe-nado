@@ -25,9 +25,7 @@
 .header__links-list-item_no-bullit {
   list-style: none;
 }
-/*ссылка меню навигации*/
-header__link {
-}
+
 /*активная ссылка меню навигации*/
 .header__link_active {
   text-decoration: none;
@@ -342,9 +340,6 @@ header__link {
   display: flex;
   flex-direction: column;
   padding-left: 49px;
-}
-
-.footer__address-link-number {
 }
 
 .footer__address-link {
