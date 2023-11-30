@@ -74,12 +74,9 @@
   position: relative;
   top: 4px;
   z-index: 1;
-}
-
-.cover-max {
-  width: 1440px;
   margin: 0 auto;
 }
+
 .overlay {
   position: absolute;
   width: 100%;
